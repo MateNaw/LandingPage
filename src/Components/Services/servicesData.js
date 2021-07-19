@@ -28,7 +28,7 @@ const servicesData = [
     header: 'Silnik ECU',
     img: '/Images/service4.jpg',
     name: 'Naprawa Sterowników silnika ECU',
-    shortInfo: 'Silnik ECU napirawiany jest poprzez spawanie części',
+    shortInfo: 'Silnik ECU napirawiany jest poprzez spawanie części ze yui',
     longInfo: 'Sytem scr napirawiany jest poprzez spawanie części pochadzących z weganskiego źródła u ujścia rzeki Morawy za 3 górami i 7 lasami',
 
   },

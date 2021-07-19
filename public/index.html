@@ -20,24 +20,24 @@
   <script type="text/javascript">
   
     document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems);
+      const elems = document.querySelectorAll('.sidenav');
+      const instances = M.Sidenav.init(elems);
     });
     $(document).ready(function () {
       $('.sidenav').sidenav();
     });
 
     document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.carousel');
-      var instances = M.Carousel.init(elems);
+      const elems = document.querySelectorAll('.carousel');
+      const instances = M.Carousel.init(elems);
     });
     $(document).ready(function () {
       $('.carousel').carousel();
     });
 
     document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems);
+      const elems = document.querySelectorAll('.slider');
+      const instances = M.Slider.init(elems);
   });
 
   // Or with jQuery
@@ -47,15 +47,24 @@
   });
 
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.scrollspy');
-    var instances = M.ScrollSpy.init(elems, {throttle: 200});
+    const elems = document.querySelectorAll('.scrollspy');
+    const instances = M.ScrollSpy.init(elems, {throttle: 200});
   });
 
   $(document).ready(function(){
     $('.scrollspy').scrollSpy();
   });
  
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems );
+  });
 
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
   </script>
 
 </body>

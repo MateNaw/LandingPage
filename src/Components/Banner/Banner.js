@@ -4,8 +4,8 @@ import './banner.css';
 
 export default function Banner() {
   return (
-    <section id='home' className='home'>
-       <div className='slider fullscreen'>
+    <section id='home' className='home' >
+       <div className='slider banner-position fullscreen'>
             <BannerList />
         </div>
     </section>

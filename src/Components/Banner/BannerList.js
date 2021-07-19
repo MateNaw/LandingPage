@@ -5,7 +5,7 @@ import './banner.css'
 
 export const BannerList = () => {
   return (
-    <ul className='slides'>
+    <ul className='slides banner-position' >
       {servicesData.map((service) => (
         <BannerItem key={service.id.toString()} service={service} />
       ))}
