@@ -3,7 +3,7 @@ import { galleryData } from './galleryData'
 
 const Photo = ({ img, alt }) => {
     return (
-        <div className='col s12 m6 14' >
+        <div className='col s3 m3 10' >
             <img className='materialboxed responsive-img  card' src={img} alt={alt}  />
         </div>
     );
