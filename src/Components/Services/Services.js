@@ -4,7 +4,7 @@ import { servicesData } from './servicesData';
 
 export default function Services() {
   return (
-    <section id='services' className='section section-service scrollspy'>
+    <section id='services' className='section section-service scrollspy' style={{paddingTop: '40px'}}>
       <div className='container'>
         <div className='row'>
           <h4 className='center purple-text darken-1'>Nasze usługi</h4>

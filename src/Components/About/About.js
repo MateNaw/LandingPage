@@ -1,8 +1,9 @@
 import '../../../node_modules/materialize-css/dist/css/materialize.min.css';
+import './about.css';
 
 export default function About() {
     return (
-        <section id='about' className='section grey lighten-4 center' style={{marginTop: '-65px'}}>
+        <section id='about' className='section grey lighten-4 center fit-scroll'>
             <div className='container'>
                 <div className='row'>
                     <h4 className='center purple-text darken-1'>O nas</h4>

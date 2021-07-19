@@ -18,6 +18,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/jsx" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
   <script type="text/javascript">
+  
     document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems);
@@ -45,7 +46,15 @@
     $('.slider').slider();
   });
 
-  
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems, {throttle: 200});
+  });
+
+  $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
+ 
 
   </script>
 
